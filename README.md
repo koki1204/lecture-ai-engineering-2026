@@ -30,6 +30,8 @@ uv run pytest -q
 uv run python -m app.ask "LoRAとは何ですか？"
 ```
 
+`uv run python -m app.ask --chat` と実行すると、会話履歴を保った対話モードになります。`/exit` または `/quit` で終了できます。
+
 詳しい手順は [lectures/01/problem.md](lectures/01/problem.md) を見てください。
 
 ## 構成
